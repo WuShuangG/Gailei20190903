@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".view.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="热卖"
+        android:textSize="40dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:background="#9ACC99"
+        />
+    <com.bwei.xlistview.XlistView
+        android:id="@+id/xl"
+        android:background="#9ACC99"
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.bwei.xlistview.XlistView>
+
+
+</LinearLayout>
